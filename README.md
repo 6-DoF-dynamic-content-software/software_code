@@ -1,5 +1,8 @@
 # Software toolkit for generating training/testing dataset and point clouds for dynamic 3D models.
 ## Dependencies
+Blender > 3.5
+Numpy
+Mathutils
 ### This code is for Blender version > 4.0
 ### For Blender version < 3.9
 To import PLY into Blender correctly, follow the instructions from [import ply as verts](https://github.com/TombstoneTumbleweedArt/import-ply-as-verts).
