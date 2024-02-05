@@ -1,7 +1,7 @@
 # Software toolkit for generating training/testing dataset and point clouds for dynamic 3D models.
 ## Dependencies
-Blender > 3.5
-Numpy
+Blender > 3.5 <br />
+Numpy <br />
 Mathutils
 ### This code is for Blender version > 4.0
 ### For Blender version < 3.9
