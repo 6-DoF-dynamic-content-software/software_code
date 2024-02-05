@@ -39,11 +39,8 @@ Yuan-Chun:
 
 
 ## Original dataset
-[8iVFB](http://plenodb.jpeg.org/pc/8ilabs/)  
-[vsenseVVDB2](https://v-sense.scss.tcd.ie/research/vsensevvdb2-v-sense-volumetric-video-quality-database-2/)  
-[Lego](https://drive.google.com/drive/folders/128yBriW1IG_3NJ5Rp7APSTZsJqdJdfc1)  
-[Pig](https://blendermarket.com/products/piggy-animations-vfx-grace)  
-[Amy](https://studio.blender.org/characters/5f1ed640e9115ed35ea4b3fb/showcase/1/)  
+You can download the original datasets in the following links:
+[8iVFB](http://plenodb.jpeg.org/pc/8ilabs/)  [vsenseVVDB2](https://v-sense.scss.tcd.ie/research/vsensevvdb2-v-sense-volumetric-video-quality-database-2/)  [Lego](https://drive.google.com/drive/folders/128yBriW1IG_3NJ5Rp7APSTZsJqdJdfc1)  [Pig](https://blendermarket.com/products/piggy-animations-vfx-grace)  [Amy](https://studio.blender.org/characters/5f1ed640e9115ed35ea4b3fb/showcase/1/)  
 
 
 
