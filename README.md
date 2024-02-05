@@ -1,5 +1,6 @@
 # A Software Toolkit and Dataset for Dynamic 6-DoF Content.
-## Dependencies
+## Neural-based approach dataset generation
+### Dependencies
 Blender > 3.5 <br />
 Numpy <br />
 Mathutils
@@ -20,7 +21,7 @@ in ```initialization() ```function.
 ``` bash
 bpy.context.scene.view_settings.view_transform = 'Raw'
 ```
-## Running a Script in Linux Terminal
+### Running a Script in Linux Terminal
 To execute a script in the Linux terminal, use the following command format:
 
 ```bash
@@ -33,12 +34,17 @@ blender -b lego.blend -P lego_train.py
 ```
 To generate datasets for point clouds, use ```train.blend```. 
 
+## Point cloud sequence dataset generation
+Yuan-Chun: 
+
+
 ## Original dataset
 [8iVFB](http://plenodb.jpeg.org/pc/8ilabs/)  
 [vsenseVVDB2](https://v-sense.scss.tcd.ie/research/vsensevvdb2-v-sense-volumetric-video-quality-database-2/)  
 [Lego](https://drive.google.com/drive/folders/128yBriW1IG_3NJ5Rp7APSTZsJqdJdfc1)  
 [Pig](https://blendermarket.com/products/piggy-animations-vfx-grace)  
 [Amy](https://studio.blender.org/characters/5f1ed640e9115ed35ea4b3fb/showcase/1/)  
+
 
 
 
