@@ -1,4 +1,4 @@
-# Software toolkit for generating training/testing dataset and point clouds for dynamic 3D models.
+# A Software Toolkit and Dataset for Dynamic 6-DoF Content.
 ## Dependencies
 Blender > 3.5 <br />
 Numpy <br />
