@@ -1,0 +1,23 @@
+{
+    "startFrame": 1,
+    "endFrame": 2,
+    "step": 1,
+    "sceneName": "Scene",
+    "objectNames": ["XXX", 
+                    "YYY"
+                    ],
+    "materialNamesList": [["AAA", "BBB"],
+                        ["AAA", "CCC"]
+                        ],
+    "upsample_counts":  [2,
+                        2
+                        ],
+    "render_samples_step": 10,
+    "preprocessBlendDir": "data/Pig",
+    "projDirName": "results/Pig",
+    "saveTexDir": "baked_texture",
+    "saveObjDir": "output_obj",
+    "savePlyDir": "output_ply",
+    "finalResultsDir": "all_ply",
+    "voxel_size": 0.0001
+}

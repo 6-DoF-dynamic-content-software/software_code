@@ -1,0 +1,142 @@
+{
+    "projName": "Amy",
+    "startFrame": 151,
+    "endFrame": 211,
+    "step": 1,
+    "sceneName": "Scene",
+    "objectNames": [
+        "GEO-paper",
+        "GEO-rings",
+        "GEO-wood",
+        "GEO-pen",
+        "GEO-pen.001",
+        "GEO-pen.002",
+        "GEO-rain_eyes_viewport",
+        "GEO-rain_gums_upper",
+        "GEO-rain_gums_lower",
+        "GEO-rain_tongue",
+        "GEO-rain_eyebrows",
+        "GEO-rain_eyelashes",
+        "GEO-rain_head",
+        "GEO-rain_body",
+        "GEO-rain_shoes",
+        "GEO-rain_top",
+        "GEO-rain_jeans",
+        "GEO-rain_hair_main",
+        "GEO-rain_hair_ponytail",
+        "GEO-rain_hair_strand",
+        "GEO-rain_hairband",
+        "GEO-nametag"
+    ],
+    "materialNamesList": [
+        [
+            "paper"
+        ],
+        [
+            "plastic"
+        ],
+        [
+            "wood",
+            "paper.001"
+        ],
+        [
+            "pen blue",
+            "metal"
+        ],
+        [
+            "pen blue.002",
+            "metal.002"
+        ],
+        [
+            "pen blue.001",
+            "metal.001"
+        ],
+        [
+            "MAT-rain.eyes.viewport_white",
+            "MAT-rain.eyes.viewport_blue",
+            "MAT-rain.eyes.viewport_black"
+        ],
+        [
+            "MAT-rain.gums",
+            "MAT-rain.teeth"
+        ],
+        [
+            "MAT-rain.gums",
+            "MAT-rain.teeth"
+        ],
+        [
+            "MAT-rain.tongue"
+        ],
+        [
+            "MAT-rain.eyebrows"
+        ],
+        [
+            "MAT-rain.eyelashes"
+        ],
+        [
+            "MAT-rain.body"
+        ],
+        [
+            "MAT-rain.body"
+        ],
+        [
+            "MAT-rain.shoes",
+            "MAT-rain.metal",
+            "MAT-rain.socks",
+            "MAT-rain.laces"
+        ],
+        [
+            "MAT-rain.top"
+        ],
+        [
+            "MAT-rain.jeans"
+        ],
+        [
+            "MAT-rain.hair"
+        ],
+        [
+            "MAT-rain.hair"
+        ],
+        [
+            "MAT-rain.hair"
+        ],
+        [
+            "MAT-rain.hairband"
+        ],
+        [
+            "MAT-nametag"
+        ]
+    ],
+    "upsample_counts": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+    ],
+    "render_samples_step": 16,
+    "preprocessBlendDir": "data/Amy",
+    "projDirName": "results/Amy",
+    "saveTexDir": "baked_texture",
+    "saveObjDir": "output_obj",
+    "savePlyDir": "output_ply",
+    "finalResultsDir": "all_ply",
+    "voxel_size": 0.005
+}

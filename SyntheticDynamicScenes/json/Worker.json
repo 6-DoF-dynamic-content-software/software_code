@@ -1,0 +1,61 @@
+{
+    "projName": "Worker",
+    "startFrame": 1,
+    "endFrame": 61,
+    "step": 1,
+    "sceneName": "Scene",
+    "objectNames": [
+        "Shirt",
+        "Body",
+        "Helmet",
+        "Eyelashes",
+        "Pants",
+        "Vest",
+        "Hair",
+        "Boots"
+    ],
+    "materialNamesList": [
+        [
+            "Body"
+        ],
+        [
+            "Body"
+        ],
+        [
+            "Body"
+        ],
+        [
+            "Hair"
+        ],
+        [
+            "Body"
+        ],
+        [
+            "Body"
+        ],
+        [
+            "Hair"
+        ],
+        [
+            "Body"
+        ]
+    ],
+    "upsample_counts": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+    ],
+    "render_samples_step": 16,
+    "preprocessBlendDir": "data/Worker/man",
+    "projDirName": "results/Worker",
+    "saveTexDir": "baked_texture",
+    "saveObjDir": "output_obj",
+    "savePlyDir": "output_ply",
+    "finalResultsDir": "all_ply",
+    "voxel_size": 0.005
+}

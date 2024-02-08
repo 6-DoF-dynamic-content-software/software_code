@@ -1,0 +1,64 @@
+{
+    "projName": "Pig",
+    "startFrame": 1,
+    "endFrame": 61,
+    "step": 1,
+    "sceneName": "Scene",
+    "objectNames": [
+        "Piglet_Body",
+        "Piglet_OralCavity_L",
+        "Piglet_OralCavity_U",
+        "Piglet_Pupil",
+        "Piglet_Sclera",
+        "Piglet_Teeth_L",
+        "Piglet_Teeth_U",
+        "Piglet_Tongue"
+    ],
+    "materialNamesList": [
+        [
+            "Piglet_Hair_Body",
+            "Piglet_Body",
+            "Piglet_Hair_Head",
+            "Piglet_Hair_Beard"
+        ],
+        [
+            "Piglet_OralCavity"
+        ],
+        [
+            "Piglet_OralCavity"
+        ],
+        [
+            "Piglet_Pupil"
+        ],
+        [
+            "Piglet_Sclera"
+        ],
+        [
+            "Piglet_OralCavity"
+        ],
+        [
+            "Piglet_OralCavity"
+        ],
+        [
+            "Piglet_Tongue"
+        ]
+    ],
+    "upsample_counts": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+    ],
+    "render_samples_step": 16,
+    "preprocessBlendDir": "data/Pig/Pig",
+    "projDirName": "results/Pig",
+    "saveTexDir": "baked_texture",
+    "saveObjDir": "output_obj",
+    "savePlyDir": "output_ply",
+    "finalResultsDir": "all_ply",
+    "voxel_size": 0.005
+}
