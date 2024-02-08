@@ -1,4 +1,4 @@
-# Blender to Point Cloud
+# Synthetic Dynamic Scenes Dataset
 
 All tests are done in Windows 10 and Blender version 4.0.
 Hopefully, they can work well in Ubuntu and MacOS.
