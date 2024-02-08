@@ -4,7 +4,7 @@ All tests are done in Windows 10 and Blender version 4.0.
 Hopefully, they can work well in Ubuntu and MacOS.
 
 ## Environment
-
+Setup Python and libraries.
 ```bash
 conda env create -f environment.yml
 conda activate blender_env
@@ -36,13 +36,15 @@ mkdir data
 
 ### For Pig scene
 
-**With ours light settings**
-
-1. Make sure there is the json file.
-
-2. Execute prerun code `preprocess_Pig.py` 
+1. (Skip) Make sure there is the json file.
+If not, then execute `generateJson_Pig.py`.
 ```bash
-path/to/Blender -b ./data/Pig/Pig.blend -P ./preprocess_Pig.py
+path/to/Blender -b ./data/Pig_download/Pig.blend -P ./generateJson_Pig.py
+```
+
+2. (Skip) Execute prerun code `preprocess_Pig.py` 
+```bash
+path/to/Blender -b ./data/Pig_download/Pig.blend -P ./preprocess_Pig.py
 ```
 
 3. Execute baking code `main_bake.py` 
@@ -50,28 +52,14 @@ path/to/Blender -b ./data/Pig/Pig.blend -P ./preprocess_Pig.py
 path/to/Blender -b ./data/Pig/Pig.blend -P ./main_bake.py -- --json_path ./json/Pig.json
 ```
 
-4. Execute merging code `main_mergePcd.py` 
+4. Execute check code `main_checkBake.py` to check if all the necessary exist
+```bash
+python ./main_checkBake.py -jp ./json/Pig.json
+```
+
+5. Execute merging code `main_mergePcd.py` 
 ```bash
 python ./main_mergePcd.py --json_path ./json/Pig.json
-```
-
-**Without light settings**
-
-1. Make sure there is the json file.
-
-2. Execute prerun code `preprocess_Pig.py` 
-```bash
-path/to/Blender -b ./data/Pig/Pig.blend -P ./preprocess_Pig.py
-```
-
-3. Execute baking code `bake_color.py` 
-```bash
-path/to/Blender -b ./data/Pig/Pig.blend -P ./bake_color.py -- --json_path ./json/Pig.json
-```
-
-4. Execute merging code `mergePcd_color.py` 
-```bash
-python ./mergePcd_color.py --json_path ./json/Pig.json
 ```
 
 ### For Lego scene
@@ -104,15 +92,15 @@ python ./main_mergePcd.py -jp ./json/Lego.json
 
 ### For Worker scene
 
-1. Make sure there is the json file.
+1. (Skip) Make sure there is the json file.
 If not, then execute `generateJson_Worker.py`.
 ```bash
-"C:/Program Files/Blender Foundation/Blender 4.0/blender.exe" -b ./data/Worker_raw/Worker.blend -P ./generateJson_Worker.py
+path/to/Blender -b ./data/Worker_download/Worker.blend -P ./generateJson_Worker.py
 ```
 
-2. Execute prerun code `preprocess_Worker.py` 
+2. (Skip) Execute prerun code `preprocess_Worker.py` 
 ```bash
-"C:/Program Files/Blender Foundation/Blender 4.0/blender.exe" -b ./data/Worker_raw/Worker.blend -P ./preprocess_Worker.py
+path/to/Blender -b ./data/Worker_download/Worker.blend -P ./preprocess_Worker.py
 ```
 
 3. Execute baking code `main_bake.py` 
@@ -120,22 +108,27 @@ If not, then execute `generateJson_Worker.py`.
 python ./main_bake.py -- -jp ./json/Worker.json -bp ./data/Worker/Worker.blend
 ```
 
-4. Execute merging code `main_mergePcd.py` 
+4. Execute check code `main_checkBake.py` to check if all the necessary exist
+```bash
+python ./main_checkBake.py -jp ./json/Worker.json
+```
+
+5. Execute merging code `main_mergePcd.py` 
 ```bash
 python ./main_mergePcd.py -jp ./json/Worker.json
 ```
 
 ### For Amily scene
 
-1. Make sure there is the json file.
+1. (Skip) Make sure there is the json file.
 If not, then execute `generateJson_Amily.py`.
 ```bash
-"C:/Program Files/Blender Foundation/Blender 4.0/blender.exe" -b ./data/Amily/Amily.blend -P ./generateJson_Amily.py
+path/to/Blender -b ./data/Amily_download/Amily.blend -P ./generateJson_Amily.py
 ```
 
-2. Execute prerun code `preprocess_Amily.py` 
+2. (Skip) Execute prerun code `preprocess_Amily.py` 
 ```bash
-C:/"Program Files"/"Blender Foundation"/"Blender 4.0"/blender.exe -b ./data/restaurant_anim_test/rain_restaurant_ami.blend -P ./preprocess_Amily.py
+path/to/Blender -b ./data/Amily_download/Amily.blend -P ./preprocess_Amily.py
 ```
 
 3. Execute baking code `main_bake.py` 
@@ -143,7 +136,12 @@ C:/"Program Files"/"Blender Foundation"/"Blender 4.0"/blender.exe -b ./data/rest
 python ./main_bake.py -- -jp ./json/Amily.json -bp ./data/Amily/Amily.blend
 ```
 
-4. Execute merging code `main_mergePcd.py` 
+4. Execute check code `main_checkBake.py` to check if all the necessary exist
+```bash
+python ./main_checkBake.py -jp ./json/Amily.json
+```
+
+5. Execute merging code `main_mergePcd.py` 
 ```bash
 python ./main_mergePcd.py -jp ./json/Amily.json
 ```
