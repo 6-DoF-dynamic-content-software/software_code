@@ -39,10 +39,6 @@ blender -b lego.blend -P lego_train.py
 ```
 To generate datasets for point clouds, use ```train.blend```. 
 
-## Point cloud sequence dataset generation (Synthetic Dynamic Scenes)
-If you want to generate the dataset by yourself, you can follow the [README](https://github.com/6-DoF-dynamic-content-software/software_code/tree/main/SyntheticDynamicScenes#blender-to-point-cloud) descriptions.
-And the codes to generate the dataset are all in `./SyntheticDynamicScenes`.
-
 ## Original dataset
 You can download the original datasets in the following links:
 - [8iVFB](http://plenodb.jpeg.org/pc/8ilabs/)  
@@ -51,6 +47,12 @@ You can download the original datasets in the following links:
     - [Lego](https://drive.google.com/drive/folders/128yBriW1IG_3NJ5Rp7APSTZsJqdJdfc1)  
     - [Pig](https://blendermarket.com/products/piggy-animations-vfx-grace)  
     - [Amy](https://studio.blender.org/characters/5f1ed640e9115ed35ea4b3fb/showcase/1/) 
+
+
+## Point cloud sequence dataset generation (Synthetic Dynamic Scenes)
+If you want to generate the dataset by yourself, you can follow the [README](https://github.com/6-DoF-dynamic-content-software/software_code/tree/main/SyntheticDynamicScenes#blender-to-point-cloud) descriptions.
+And the codes to generate the dataset are all in `./SyntheticDynamicScenes`.
+
 
 <section class="section" id="citation">
   <div class="container is-max-desktop content">
