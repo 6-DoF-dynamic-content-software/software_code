@@ -40,14 +40,17 @@ blender -b lego.blend -P lego_train.py
 To generate datasets for point clouds, use ```train.blend```. 
 
 ## Original dataset
-You can download the original datasets in the following links:
+Since we are unable to release the Blender models and point clouds, you can download the original datasets in the following links:
 - [8iVFB](http://plenodb.jpeg.org/pc/8ilabs/)  
 - [vsenseVVDB2](https://v-sense.scss.tcd.ie/research/vsensevvdb2-v-sense-volumetric-video-quality-database-2/)
 - Synthetic Dynamic Scenes
     - [Lego](https://drive.google.com/drive/folders/128yBriW1IG_3NJ5Rp7APSTZsJqdJdfc1)  
     - [Pig](https://blendermarket.com/products/piggy-animations-vfx-grace)  
     - [Amy](https://studio.blender.org/characters/5f1ed640e9115ed35ea4b3fb/showcase/1/) 
+Following the instructions above, you can generate datasets by yourself.
 
+## Generated dataset
+As we mentioned in our paper, we generate the training and testing datasets for Blender models. We also generate the point cloud sequences for these models. You can find them [here](https://rutgers.app.box.com/s/jod4sd95bfr5tcsoc06jiyjw6axfuven). Each folder contains two .zip files. "model.zip" includes training and testing images along with transform.json for training nerual-based methods. Format and coordinate convertion may required for latest NeRF models. "model_PLY.zip" contains the dynamic point cloud sequences. 
 
 ## Point cloud sequence dataset generation (Synthetic Dynamic Scenes)
 If you want to generate the dataset by yourself, you can follow the [README](https://github.com/6-DoF-dynamic-content-software/software_code/tree/main/SyntheticDynamicScenes#blender-to-point-cloud) descriptions.
