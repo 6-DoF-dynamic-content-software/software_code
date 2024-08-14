@@ -1,8 +1,8 @@
-# A Software Toolkit and Dataset for Dynamic 6-DoF Content
+# Dynamic 6-DoF Volumetric Video Generation: Software Toolkit and Dataset
 Mufeng Zhu, Yuan-Chun Sun, Na Li, Jin Zhou, Songqing Chen, Cheng-Hsin Hsu, Yao Liu<br>
 | [Webpage](https://6-dof-dynamic-content-software.github.io/) | [Full Paper](#) |
 
-This repository contains the official implementation for [A Software Toolkit and Dataset for Dynamic 6-DoF Content](https://6-dof-dynamic-content-software.github.io/).
+This repository contains the official implementation for [Dynamic 6-DoF Volumetric Video Generation: Software Toolkit and Dataset](https://6-dof-dynamic-content-software.github.io/).
 
 ## Neural-based approach dataset generation
 ### Dependencies
