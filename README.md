@@ -61,16 +61,14 @@ And the codes to generate the dataset are all in `./SyntheticDynamicScenes`.
 <section class="section" id="citation">
   <div class="container is-max-desktop content">
     <h2 class="title">Citation</h2>
-    <pre><code>@Article{XXX,
-      author       = {Zhu, Mufeng and Sun, Yuan-Chun and Li,Na and Zhou, Jin and Chen, Songqing and Hsu, Cheng-Hsin and Liu, Yao},
-      title        = {A Software Toolkit and Dataset for Dynamic 6-DoF Content},
-      journal      = {XXX},
-      number       = {XXX},
-      volume       = {XXX},
-      month        = {XXX},
-      year         = {XXX},
-      url          = {https://6-dof-dynamic-content-software.github.io/}
-}</code></pre>
+    @inproceedings{zhu2024dynamic,
+  title={Dynamic 6-DoF Volumetric Video Generation: Software Toolkit and Dataset},
+  author={Zhu, Mufeng and Sun, Yuan-Chun and Li, Na and Zhou, Jin and Chen, Songqing and Hsu, Cheng-Hsin and Liu, Yao},
+  booktitle={2024 IEEE 26th International Workshop on Multimedia Signal Processing (MMSP)},
+  pages={1--6},
+  year={2024},
+  organization={IEEE}
+}
   </div>
 </section>
 
